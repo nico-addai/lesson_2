@@ -1,0 +1,7 @@
+
+const codePretty = () => {
+    for (let padding = 1; padding <= 10; padding++) {
+        console.log(" ".repeat(padding) + "The Flinstones Rock!");
+      }
+}
+codePretty()
